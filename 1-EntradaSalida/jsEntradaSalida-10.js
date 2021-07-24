@@ -16,7 +16,7 @@ function mostrarAumento()
 	porcentajeElegido = prompt ("Ingrese el porcentaje de aumento ");
 	porcentajeElegido = parseInt(porcentajeElegido);
 	aumento = importeTotal * (porcentajeElegido/100);
-	importeTotal = importe +aumento;
+	importeTotal = importe + aumento;
 
 	document.getElementById('txtIdResultado').value = importeTotal;
 
